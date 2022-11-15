@@ -3,7 +3,7 @@ function validate() {
     var passowrd = document.getElementById("Password").value;
     var ErrorMessage = document.getElementById("Error")
     var SuccessfulMessage = document.getElementById("Successfuly")
-    if (username=="Bulgatian"&& passowrd=="RP") {
+    if (username=="Bulgatia"&& passowrd=="RP") {
         SuccessfulMessage.style.opacity=1;
         setTimeout(function () {
             window.open("");
