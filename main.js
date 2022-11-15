@@ -3,11 +3,11 @@ function validate() {
     var passowrd = document.getElementById("Password").value;
     var ErrorMessage = document.getElementById("Error")
     var SuccessfulMessage = document.getElementById("Successfuly")
-    if (username=="bulgaria"&& passowrd=="rp") {
+    if (username=="Bulgaria"&& passowrd=="RP") {
         SuccessfulMessage.style.opacity=1;
         setTimeout(function () {
-            window.open("https://www.tyreyryr.github.io/Secrer2");
-            window.close("https://www.tyreyryr.github.io/Secret");
+            window.open("https://tyreyryr.github.io/Secrer2");
+            window.close("https://tyreyryr.github.io/Secret");
             SuccessfulMessage.style.opacity=0;
         }, 1000);
         return false;
