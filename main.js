@@ -3,7 +3,7 @@ function validate() {
     var passowrd = document.getElementById("Password").value;
     var ErrorMessage = document.getElementById("Error")
     var SuccessfulMessage = document.getElementById("Successfuly")
-    if (username=="Bulgaria"&& passowrd=="RP") {
+    if (username=="bulgaria"&& passowrd=="rp") {
         SuccessfulMessage.style.opacity=1;
         setTimeout(function () {
             window.open("https://www.tyreyryr.github.io/Secrer2");
